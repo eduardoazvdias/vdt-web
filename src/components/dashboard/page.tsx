@@ -1,6 +1,3 @@
-import { Metadata } from "next"
-import Image from "next/image"
-
 import { Button } from "../ui/button"
 import {
   Card,
@@ -10,11 +7,6 @@ import {
 } from "../ui/card"
 import { MainNav } from "./components/main-nav"
 import { Overview } from "./components/overview"
-
-export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "Example dashboard app built using the components.",
-}
 
 export default function DashboardPage() {
   return (
